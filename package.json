@@ -4,7 +4,12 @@
   "description": "",
   "main": "App.js",
   "type": "module",
+  "engines": {
+    "node": "18.15.0"
+  },
+
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
